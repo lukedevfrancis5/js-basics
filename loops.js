@@ -8,5 +8,5 @@
 //      console.log(name);   
 // }
 
-const user = { firstName: 'John', lastName: 'Doe'};
-for (key in user) console.log(user[key])
+// const user = { firstName: 'John', lastName: 'Doe'};
+// for (key in user) console.log(user[key])
