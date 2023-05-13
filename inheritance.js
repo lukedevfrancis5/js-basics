@@ -1,23 +1,4 @@
-class Person {
-    constructor(name) {
-        this.name = name;
-    }
+import { Teacher } from './teacher';
 
-    walk() {
-    console.log("walk");
-    }   
-}
 
-class Teacher extends Person {
-    constructor(name, degree) {
-        super(name);
-        this.degree = degree;
-    }
-    
-    teach() {
-        console.log("teach");
-    }
-}
-
-const teacher = new Teacher('Luke');
-teacher.teach()
+const teacher = new Teacher('Luke', 'MSc');
