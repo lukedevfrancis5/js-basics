@@ -1,3 +1,5 @@
+    // this function works    
+    
     function isPalindrome(str) {
         // Remove spaces and punctuation, and convert to lowercase
         str = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
