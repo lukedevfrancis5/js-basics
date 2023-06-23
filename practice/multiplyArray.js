@@ -1,4 +1,4 @@
-
+// this function works 
 function multiplyArrayByNumber(array, num) {
     newArray = [];
 
