@@ -1,4 +1,4 @@
-
+// this function works
 function findMax(num) {
     maxNum = 0;
     for (let i = 0; i < num.length; i++) {
